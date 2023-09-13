@@ -1,0 +1,262 @@
+@font-face {
+    font-family: 'font';
+    src: url(../font/Lalezar-Regular.otf);
+}* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "font";
+    list-style: none;
+    text-decoration: none;
+}
+/* header */
+.top-menu {
+    background-color: #d3d3d37a;
+    width: 100%;
+}.menu {
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+}.menu ul {
+    display: flex;
+    flex: 1;
+    margin: 0px 30px;
+}.menu ul li a {
+    color: #040D12;
+    padding: 0 12px;
+    font-size: 18px;
+}.menu .toggle {
+    display: none;
+}.picture_header {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+}.picture_header .background_img {
+    width: 100%;
+    height: 500px;
+    background-color: #21aa58;
+}.picture_header .img {
+    width: 100%;
+}.picture_header .img img {
+    width: 100%;
+    height: 500px;
+}.picture_header .caption {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 30px;
+}.picture_header .caption h4 {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 100;
+    padding-top: 15px;
+}.picture_header .caption p {
+    color: #fff;
+    font-weight: 100;
+    padding-top: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}.picture_header form{
+    padding-top: 40px;
+}.picture_header form button{
+    padding: 10px;
+    border-radius: 5px;
+    border-color: #ffff;
+    cursor: pointer;
+}.picture_header form input{
+    padding: 10px;
+    border-radius: 5px;
+    border-color: #fff;
+}.picture_header .caption a{
+    padding: 20px;
+    color: #fff;
+    font-weight: 100;
+    margin: 75px auto;
+    border: 2px solid #fff;
+}.picture_header .caption a:hover{
+    background-color: #ffffff14;
+    border: none;
+}
+/* snaps */
+.snaps{
+    width: 100%;
+    background-color: #fff;
+}.snaps .box_esnap{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}.snaps .box_esnap img{
+    width: 200px;
+    height: 60px;
+    border-radius: 6px;
+    margin: 5px;
+    cursor: pointer;
+}
+/* product snap */
+.product_snap{
+    width: 100%;
+    margin-top: 30px;
+    background-color: #f2f5f8;
+}.product_snap .title{
+    text-align: center;
+    padding-top: 50px;
+    color: rgb(64, 64, 64);
+    font-weight: 100;
+}.product_snap .product{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    flex-wrap: wrap;
+}.product_snap .product .product_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin: 5px;
+    width: 160px;
+    height: 70px;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px rgba(161, 161, 161, 0.468);
+    border-radius: 5px;
+    cursor: pointer;
+}.product_snap .product .product_item p{
+    color: rgb(64, 64, 64);
+}
+/* food */
+.food{
+    width: 100%;
+    background-color: #fff; 
+}.food .img_food{
+    padding: 30px;
+    cursor: pointer;
+}
+/* snap_caption */
+.snap_caption{
+    width: 100%;
+    background-color: #fff;
+}.snap_caption .caption{
+    display: flex;
+}.snap_caption .caption img{
+    width: 700px;
+    height: 400px;
+    cursor: pointer;
+}.snap_caption .caption .title{
+    padding: 0 30px;
+    text-align: right;
+    padding-top: 30px;
+}.snap_caption .caption .title h1{
+    color: rgb(64, 64, 64);
+}.snap_caption .caption .title span{
+    color: rgb(64, 64, 64);
+    line-height: 2;
+}.snap_caption .box_caption{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}.snap_caption .box_caption .item_caption{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px rgba(161, 161, 161, 0.468);
+    z-index: 1;
+    border-radius: 5px;
+    margin: 50px;
+}.snap_caption .box_caption .item_caption img{
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}.snap_caption .box_caption .item_caption h3{
+    color: rgb(64, 64, 64);
+}
+/* video */
+.video{
+    width: 100%;
+    margin-top: 20px;
+    background-color: #f2f5f8;
+}.video .title_video{
+    color: rgb(64, 64, 64);
+    text-align: center;
+    font-weight: 100;
+    padding-top: 20px;
+    font-size: 15px;
+}.video .title_video p{
+    font-size: 15px;
+}.video .videos{
+    width: 100%;
+    padding-top: 15px;
+}.video .box_video{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px;
+}.video .box_video .box{
+    width: 500px;
+    height: 200px;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px rgba(161, 161, 161, 0.468);
+    border-radius: 6px;
+    margin: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}.video .box_video .box img{
+    width: 120px;
+}.video .box_video .box .caption-box{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}.video .box_video .box .caption-box h4{
+    color: rgb(64, 64, 64);
+}.video .box_video .box .caption-box span{
+    color: rgb(64, 64, 64);
+    line-height: 1.5;
+    text-align: justify;
+}
+/* footer */
+footer{
+    width: 100%;
+    background-color: #fff; 
+}
+footer .footer_menu ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+footer .footer_menu ul li a{
+    padding: 0 12px;
+    color: rgb(64, 64, 64);
+    line-height: 2;
+}
+footer .footer_menu .social{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+footer .footer_menu .social a{
+    padding: 0 10px;
+    font-size: 25px;
+    color: rgb(64, 64, 64);
+}
+footer .footer_menu .logo_footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+footer .footer_menu .logo_footer img{
+    width: 150px;
+}
